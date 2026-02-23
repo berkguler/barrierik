@@ -27,7 +27,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!--nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -45,14 +45,14 @@
     </div>
 
   </div>
-</nav>
+</nav-->
 
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">A Safety-Aware Shared Autonomy Framework with <strong>BarrierIK</strong> Using Control Barrier Functions</h1>
+          <h1 class="title is-1 publication-title">A Safety-Aware Shared Autonomy Framework with <span class="barrierik-gradient">BarrierIK</span> Using Control Barrier Functions</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="#">Berk Guler</a><sup>*1,6</sup>,</span>
@@ -104,7 +104,7 @@
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded is-dark btn-code">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
@@ -114,17 +114,38 @@
               <!-- Dataset Link. -->
               <span class="link-block">
                 <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded is-dark btn-simulation">
                   <span class="icon">
-                      <i class="far fa-unity"></i>
+                      <i class="fab fa-unity"></i>
                   </span>
                   <span>Simulation / Teleoperation Framework</span>
                   </a>
             </div>
 
+            <!-- Keywords -->
+            <div class="publication-keywords" style="margin-top: 1rem;">
+              <span class="tag is-medium is-light">Shared Autonomy</span>
+              <span class="tag is-medium is-light">Control Barrier Functions</span>
+              <span class="tag is-medium is-light">Robotics</span>
+              <span class="tag is-medium is-light">Teleoperation</span>
+              <span class="tag is-medium is-light">BarrierIK</span>
+            </div>
+
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- System Overview GIF -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="./static/images/hierarchy_video.gif" alt="System overview animation" style="max-width: 80%; border-radius: 10px;">
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+        <span class="barrierik-gradient" style="font-weight: bold;">BarrierIK</span> enforces safety at the IK layer via Control Barrier Functions.
+      </h2>
     </div>
   </div>
 </section>
@@ -155,8 +176,9 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://youtu.be/omV4LQBn_XE?si=aJgbHk7ft9Auagzl;showinfo=0" 
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube-nocookie.com/embed/omV4LQBn_XE?si=PWsBNf022GibU6ic&rel=0&cc_load_policy=1" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </div>

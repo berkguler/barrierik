@@ -2,6 +2,41 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+/* BarrierIK gradient: yellow → green */
+.barrierik-gradient {
+  font-weight: 900;
+  background: linear-gradient(90deg, #f5c842, #2ecc40);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Code button — teal/dark green */
+.btn-code {
+  background-color: #2d6a4f !important;
+  border-color: #2d6a4f !important;
+}
+.btn-code:hover {
+  background-color: #1b4332 !important;
+  border-color: #1b4332 !important;
+}
+
+/* Simulation / Teleoperation button — purple */
+.btn-simulation {
+  background-color: #5a189a !important;
+  border-color: #5a189a !important;
+}
+.btn-simulation:hover {
+  background-color: #3c096c !important;
+  border-color: #3c096c !important;
+}
+
+/* Keyword tags */
+.publication-keywords .tag {
+  margin: 0.25rem;
+  font-family: 'Google Sans', sans-serif;
+}
+
 
 .footer .icon-link {
     font-size: 25px;
