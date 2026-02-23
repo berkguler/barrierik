@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Academic Project Page Template">
+        content="A Safety-Aware Shared Autonomy Framework with BarrierIK Using Control Barrier Functions">
   <meta name="keywords" content="Academic, Project, Template">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Academic Project Page Template</title>
+  <title>A Safety-Aware Shared Autonomy Framework with BarrierIK Using Control Barrier Functions</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -67,20 +67,32 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Your Project Title</h1>
+          <h1 class="title is-1 publication-title">A Safety-Aware Shared Autonomy Framework with BarrierIK Using Control Barrier Functions</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="#">Author 1</a><sup>1</sup>,</span>
+              <a href="#">Berk Guler</a><sup>*1,6</sup>,</span>
             <span class="author-block">
-              <a href="#">Author 2</a><sup>2</sup>,</span>
+              <a href="#">Kay Pompetzki</a><sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="#">Author 3</a><sup>1</sup>
+              <a href="#">Yuanzheng Sun</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="#">Simon Manschitz</a><sup>6</sup>
+            </span>
+            <span class="author-block">
+              <a href="#">Jan Peters</a><sup>1-5</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Your Institution,</span>
-            <span class="author-block"><sup>2</sup>Another Institution</span>
+            <span class="author-block"><sup>*</sup>Equal Contribution,</span>
+            <span class="author-block"><sup>1</sup>Technical University of Darmstadt,</span>
+            <span class="author-block"><sup>2</sup>German Research Center for Artificial Intelligence (DFKI)</span>
+            <span class="author-block"><sup>3</sup>hessian.AI</span>
+            <span class="author-block"><sup>4</sup>Robotics Institute Germany (RIG)</span>
+            <span class="author-block"><sup>5</sup>Centre for Cognitive Science</span>
+            <span class="author-block"><sup>6</sup>Honda Research Institute Europe GmbH</span>
+          
           </div>
 
           <div class="column has-text-centered">
@@ -129,9 +141,9 @@
                 <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <i class="far fa-file-alt"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Simulation / Teleoperation Framework</span>
                   </a>
             </div>
 
@@ -151,10 +163,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Replace this with your project abstract. Describe your method, approach, and key contributions.
-          </p>
-          <p>
-            Add more paragraphs as needed to fully explain your work.
+            Shared autonomy blends operator intent with autonomous assistance. In cluttered environments, linear blending can produce unsafe commands even when each source is individually collision-free. Many existing approaches model obstacle avoidance through potentials or cost terms, which only enforce safety as a soft constraint. In contrast, safety-critical control requires hard guarantees. 
+            </p><p>
+            We investigate the use of control barrier functions (CBFs) at the inverse kinematics (IK) layer of shared autonomy, enforcing post-blend safety while preserving task performance.  Our approach is evaluated in simulation on representative cluttered environments and in a VR teleoperation study comparing pure teleoperation with shared autonomy. Across conditions, employing CBFs at the IK layer reduces violation time and increases minimum clearance while maintaining task performance. In the user study, participants reported higher perceived safety and trust, lower interference, and an overall preference for shared autonomy with our safety filter.
+          
+          
+
           </p>
         </div>
       </div>
@@ -179,11 +193,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{yourname2024yourproject,
-  author    = {Your Name and Others},
-  title     = {Your Project Title},
-  journal   = {Conference/Journal Name},
-  year      = {2024},
+    <pre><code>@article{berk2026barrierik,
+  author    = {Berk Guler and Kay Pompetzki and Yuanzheng Sun and Simon Manschitz and Jan Peters},
+  title     = {A Safety-Aware Shared Autonomy Framework with BarrierIK Using Control Barrier Functions},
+  journal   = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2026},
 }</code></pre>
   </div>
 </section>
